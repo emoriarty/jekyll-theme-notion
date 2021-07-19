@@ -1,8 +1,6 @@
 $container-width: 90% !default;
 $container-max-width: 600px !default;
 
-$breakpoint-sm: 600px;
-
 .container {
   position:relative;
   z-index: 1;
@@ -19,16 +17,7 @@ $breakpoint-sm: 600px;
   margin-left: auto;
 }
 
-.prompt {
-  color: var(--prompt);
-  float: left;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  margin-right: 12px;
-  @media (max-width: $breakpoint-sm) {
-    float: none;
-  }
-}
-.prompt-path {
-  color: var(--prompt-path);
+code[class*=language-],
+pre[class*=language-] {
+  font-size: 1.125rem;
 }
