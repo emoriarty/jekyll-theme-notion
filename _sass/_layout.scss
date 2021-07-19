@@ -1,0 +1,34 @@
+$container-width: 90% !default;
+$container-max-width: 600px !default;
+
+$breakpoint-sm: 600px;
+
+.container {
+  position:relative;
+  z-index: 1;
+  min-height:100%;
+  border:3px;
+  border-color:#fff;
+  border-style:solid;
+  padding:5px;
+  display:block;
+  overflow-x:scroll;
+  width: $container-width;
+  max-width: $container-max-width;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.prompt {
+  color: var(--prompt);
+  float: left;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+  @media (max-width: $breakpoint-sm) {
+    float: none;
+  }
+}
+.prompt-path {
+  color: var(--prompt-path);
+}
