@@ -1,9 +1,8 @@
 a {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--base-color-lighter);
   font-size: 20px;
   line-height: 150%;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", sans-serif;
+  font-family: var(--fonts);
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -12,11 +11,11 @@ a {
 }
 
 a:link{
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--base-color-lighter);
 }
 
 a:visited{
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--base-color-lighter);
 }
 
 a:hover{
@@ -27,8 +26,7 @@ a:hover{
 }
 
 body {
-  font-family: inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-    "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: var(--fonts-body);
   font-weight: 500;
   margin: 0 auto;
   padding: 0;
@@ -43,13 +41,12 @@ body {
 }
 
 .subtitle {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--base-color-light);
   font-weight: 500;
 }
 
 h1 {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--fonts);
   font-size: 52px;
   font-style: normal;
   font-variant: normal;
@@ -58,8 +55,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--fonts);
   font-size: 30px;
   font-style: normal;
   font-variant: normal;
@@ -68,8 +64,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--fonts);
   font-size: 25px;
   font-style: normal;
   font-variant: normal;
@@ -78,8 +73,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--fonts);
   font-size: 20px;
   font-style: normal;
   font-variant: normal;
@@ -88,8 +82,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--fonts);
   font-size: 18px;
   font-style: normal;
   font-variant: normal;
@@ -98,8 +91,7 @@ h5 {
 }
 
 h6 {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--fonts);
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -108,11 +100,10 @@ h6 {
 }
 
 p {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--base-color-light);
   font-size: 1.25rem;
   line-height: 150%;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--fonts);
   font-style: normal;
   font-variant: normal;
   font-weight: 400;
@@ -203,8 +194,7 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
   font-size: 20px;
   line-height: 150%;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--fonts);
   font-style: italic;
 }
 blockquote:before {
@@ -257,13 +247,11 @@ blockquote p {
 }
 
 ul {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--fonts);
 }
 
 li {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--fonts);
   font-size: 20px;
   line-height: 1.5;
 }
