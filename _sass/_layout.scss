@@ -21,3 +21,13 @@ code[class*=language-],
 pre[class*=language-] {
   font-size: 1.125rem;
 }
+
+footer {
+  margin: 20px auto 20px;
+  padding-top: 10px;
+  text-align: right;
+
+  a {
+    font-size: inherit;
+  }
+}
