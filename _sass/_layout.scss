@@ -17,9 +17,11 @@ $container-max-width: 600px !default;
   margin-left: auto;
 }
 
-code[class*=language-],
-pre[class*=language-] {
-  font-size: 1.125rem;
+p {
+  code[class*=language-],
+  pre[class*=language-] {
+    font-size: 1.125rem;
+  }
 }
 
 footer {
