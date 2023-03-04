@@ -37,3 +37,9 @@ footer {
 img {
   max-width: 100%;
 }
+
+li {
+  &> p {
+    margin: 0;
+  }
+}
