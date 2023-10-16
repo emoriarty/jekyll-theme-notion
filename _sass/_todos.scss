@@ -1,0 +1,19 @@
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list-item {
+  position: relative;
+
+  p {
+    padding-left: 35px;
+    line-height: 35px;
+  }
+}
+
+.task-list-item-checkbox {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
