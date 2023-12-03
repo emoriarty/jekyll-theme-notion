@@ -5,14 +5,8 @@
 
 .task-list-item {
   position: relative;
-
-  > p {
-    line-height: 35px;
-  }
-
-  > * {
-    padding-left: 35px;
-  }
+  line-height: 35px;
+  padding-left: 35px;
 }
 
 .task-list-item-checkbox {
