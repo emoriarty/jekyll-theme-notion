@@ -16,13 +16,15 @@ a:visited{
 }
 
 a:hover{
-    background: linear-gradient(#eee, #eee);
+    background: var(--base-color-hover);
     background-size: auto 4em;
     background-repeat: no-repeat;
     background-position: 0% 15px; 
 }
 
 body {
+  background: var(--background-color);
+  color: var(--base-color);
   font-family: var(--fonts-body);
   font-weight: 400;
   margin: 0 auto;
@@ -196,7 +198,7 @@ pre {
 }
 
 blockquote {
-  background: #f9f9f9;
+  background: var(--background-color-blockquote);
   border-left: 6px solid #ccc;
   margin: 1em 0;
   padding: 24px 20px;
@@ -212,7 +214,7 @@ blockquote p {
 }
 
 .nav {
-  background-color: #fff;
+  background-color: var(--background-color);
   overflow: hidden;
 }
 
@@ -227,7 +229,7 @@ blockquote p {
 /* Style the links inside the navigation bar */
 .nav a {
   float: left;
-  color: #37352f;
+  color: var(--base-color-nav);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -237,15 +239,13 @@ blockquote p {
 
 /* Add a color to the active/current link */
 .nav a.active {
-  background-color: #fff;
-  color: #37352f;
+  color: var(--base-color-nav);
 }
 
 /* Change the color of links on hover */
 .nav a:hover {
   background-size: 1px;
-  background-color: rgba(55, 53, 47, 0.08);
-  color: #37352f;
+  background-color: var(--background-color-nav-hover);
 }
 
 ul {
@@ -270,7 +270,7 @@ tr {
   padding: 10px;
 }
 tr:nth-child(even) {
-  background-color: #f1f1f1;
+  background-color: var(--background-color-table-even);
 }
 
 td {
