@@ -1,13 +1,10 @@
 a {
   color: var(--base-color-lighter);
-  font-size: 20px;
   line-height: 150%;
   font-family: var(--fonts);
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
   text-decoration: underline;
-  padding:3px;
 }
 
 a:link{
@@ -27,16 +24,17 @@ a:hover{
 
 body {
   font-family: var(--fonts-body);
-  font-weight: 500;
+  font-weight: 400;
   margin: 0 auto;
   padding: 0;
   text-align: left;
 }
 
 .title {
+  font-family: serif;
+  font-size: 2.8rem;
   width: 100%;
   padding-bottom: 10px;
-  border-bottom: 1px solid #37352f;
   margin-top: 50px;
   margin-bottom: 10px;
 }
@@ -113,12 +111,11 @@ h6 {
 
 p {
   color: var(--base-color-light);
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   line-height: 150%;
   font-family: var(--fonts);
   font-style: normal;
   font-variant: normal;
-  font-weight: 400;
 }
 
 button {
@@ -200,15 +197,18 @@ pre {
 
 blockquote {
   background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  border-left: 6px solid #ccc;
   margin: 1em 0;
   padding: 24px 20px;
 }
 
 blockquote p {
   display: inline;
-  font-style: italic;
-  font-family: var(--fonts);
+  font-family: serif;
+
+  > a {
+    font-family: serif;
+  }
 }
 
 .nav {
@@ -254,8 +254,9 @@ ul {
 
 li {
   font-family: var(--fonts);
-  font-size: 20px;
+  font-size: 1.15rem;
   line-height: 1.5;
+  color: var(--base-color-light);
 }
 
 table {
