@@ -14,8 +14,11 @@ $container-max-width: 768px !default;
   margin-left: auto;
 }
 
-div [class*=language-]{
-  font-size: 0.9rem;
+body {
+  div [class*=language-],
+  code[class*=language-] {
+    font-size: 0.925rem;
+  }
 }
 
 footer {

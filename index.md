@@ -11,11 +11,11 @@ permalink: /
 ## Heading 2
 ### Heading 3
 
-Hola, me llamo _Enrique_. Visita mi [página web](https://enrq.me).
+Hola, me llamo _Enrique_. Visita mi [página web](https://enrq.me). `Aquí un ejemplo de código`.
 
 * List item 1
 * List item 2
-* List item 3
+* `List item 3`
 
 1. Numbered list item 1
 1. Numbered list item 2
