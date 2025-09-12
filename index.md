@@ -35,3 +35,5 @@ arr.each { |item| puts item }
 | 1 | 4 | 7 |
 | 2 | 5 | 8 |
 | 3 | 6 | 9 |
+
+![Sample Image](https://picsum.photos/600/300?random=1)
